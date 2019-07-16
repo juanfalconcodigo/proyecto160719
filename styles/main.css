@@ -1,37 +1,32 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+body{
+    font-family: arial;
+    font-size: 13pX;
 }
+a{
+    color :red;
+    text-decoration: none;
+}
+h1,h2,h3{
+    font-family: Verdana;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+/*
+Header
+*/ 
 header{
-    
-    font-size: 18px;
-    background-color: black;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    
+    background: brown;
 }
 header a{
-    display: inline-block;
-    text-decoration: none;
-    color: white;
+    color:white;
 }
-nav{
-    background: blue;
-    text-align: right;
-    
-
-}
-ul{
-
-}
-li{
-    display: inline-block;
-    color: white;
-    
-}
-/*main*/
-main .seccion2{
-    
+header a.logo{
+    font-size: 20px;
 }
